@@ -3,9 +3,8 @@
 `politeiavoter` is a command line utility that can be used to issue votes on
 proposals.
 
-The tool keeps logs and configuration files, just like the other tools in the
-Decred suite, in the ~/.politeiavoter directory (this varies for Windows and
-OSX).
+The tool keeps logs and configuration files in the ~/.politeiavoter directory
+(this varies for Windows and OSX).
 
 In the following examples the config file contained the following entry:
 ```
@@ -55,8 +54,8 @@ that into the shell.
 ```
 politeiavoter vote 8bdebbc55ae74066cc57c76bc574fd1517111e56b3d1295bde5ba3b0bd7c3f67 yes
 ```
-The tool will prompt for the wallet GRPC password and then takes a few seconds
-to vote.
+The tool will prompt for the wallet decryption passphrase and then takes a few
+seconds to vote.
 
 ```
 Enter the private passphrase of your wallet:
