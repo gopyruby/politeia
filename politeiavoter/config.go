@@ -68,7 +68,7 @@ type config struct {
 	DebugLevel       string `short:"d" long:"debuglevel" description:"Logging level for all subsystems {trace, debug, info, warn, error, critical} -- You may also specify <subsystem>=<level>,<subsystem2>=<level>,... to set the log level for individual subsystems -- Use show to list available subsystems"`
 	Version          string
 	WalletCert       string `long:"walletgrpccert" description:"Wallet GRPC certificate"`
-	WalletPassphrase string `long:"walletpassphrase" description:"Wallet passphrase"`
+	WalletPassphrase string `long:"walletpassphrase" description:"Wallet decryption passphrase"`
 	Proxy            string `long:"proxy" description:"Connect via SOCKS5 proxy (eg. 127.0.0.1:9050)"`
 	ProxyUser        string `long:"proxyuser" description:"Username for proxy server"`
 	ProxyPass        string `long:"proxypass" default-mask:"-" description:"Password for proxy server"`
